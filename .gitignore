@@ -1,0 +1,50 @@
+# Laravel
+/public/storage
+/storage/*.key
+/vendor
+/node_modules
+
+# Laravel environment files
+.env
+.env.backup
+.env.production
+
+# PHPUnit
+.phpunit.cache
+.phpunit.result.cache
+
+# Composer
+/vendor
+composer.lock
+composer.phar
+
+# NPM
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Built files
+/public/build
+/public/hot
+
+# Laravel Homestead
+Homestead.json
+Homestead.yaml
+
+# IDE specific files
+/.idea
+/.vscode
+
+# Fleet
+/.fleet
+
+# Others
+auth.json
+
+# Ignore everything in the storage directory except the photos directory
+/storage/*
+!/storage/app
+/storage/app/*
+!/storage/app/public
+/storage/app/public/*
+!/storage/app/public/photos
